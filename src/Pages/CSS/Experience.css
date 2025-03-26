@@ -1,0 +1,20 @@
+.experience-section {
+    padding: 4rem 2rem;
+    background-color: #0b0c10;
+    color: white;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 4px solid #45a29e;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  

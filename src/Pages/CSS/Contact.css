@@ -1,0 +1,16 @@
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #0b0c10;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section a {
+    color: #66fcf1;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
