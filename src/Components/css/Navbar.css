@@ -7,13 +7,13 @@
     color: white;
   }
   
-  nav a {
+  .nav-link {
     margin-left: 20px;
     color: white;
     text-decoration: none;
   }
   
-  nav a:hover {
+  .nav-link:hover {
     color: #66fcf1;
   }
   

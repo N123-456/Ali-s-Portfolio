@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <div>
     <section id="contact" className="contact-section">
-    <h2>Contact Me</h2>
+    <h1>Contact Me</h1>
     <p>Email: <a href="mailto:malihaque@gmail.com">malihaque@gmail.com</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/ahaq" target="_blank" rel="noopener noreferrer">linkedin.com/in/ahaq</a></p>
     <p>Phone: +92 332 520 9822</p>

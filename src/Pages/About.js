@@ -1,10 +1,13 @@
 import React from 'react'
 import './CSS/About.css'
+import useScrollAnimation from '../Hooks/useScrollAnimation'
 const About = () => {
+  useScrollAnimation();
   return (
-    <section id="about" className="about-me">
+    
+    <section id="about" className="about-me hidden">
       <div className="about-content">
-        <h2>About Me</h2>
+        <h1>About Me</h1>
         <p>
           I'm <strong>Ali Haq</strong>, a cybersecurity leader with over <strong>10 years of experience</strong> specializing in 
           Security Operations Centers (SOC), cloud security (AWS, DevSecOps), and SOC2 compliance. 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './CSS/Projects.css';
+import useScrollAnimation from '../Hooks/useScrollAnimation';
 const projects = [
     {
       title: "SOC2 Compliance Implementation",
@@ -19,10 +20,11 @@ const projects = [
   ];
   
 const Projects = () => {
+  useScrollAnimation();
   return (
     <div>
-      <section id="projects" className="projects-section">
-    <h2>Projects</h2>
+      <section id="projects" className="projects-section hidden">
+    <h1>Projects</h1>
     <div className="projects-grid">
       {projects.map((project, index) => (
         <div key={index} className="project-card">

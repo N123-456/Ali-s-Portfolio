@@ -4,6 +4,7 @@ import Skills from "../Pages/Skills";
 import Experience from "../Pages/Experience";
 import Projects from "../Pages/Projects";
 import ContactUs from "../Pages/ContactUs";
+import { Link } from "react-router-dom";
 import "./css/Navbar.css";
 
 const Navbar = () => {
@@ -12,11 +13,12 @@ const Navbar = () => {
       <header className="header">
         <h1>Ali Haq</h1>
         <nav>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/about" className="nav-link">About</Link>
+        <Link to="/skills" className="nav-link">Skills</Link>
+        <Link to="/experience" className="nav-link">Experience</Link>
+        <Link to="/projects" className="nav-link">Projects</Link>
+        <Link to="/contact" className="nav-link">Contact</Link>
         </nav>
       </header>
     </div>
